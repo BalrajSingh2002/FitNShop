@@ -51,6 +51,10 @@
   margin-top: 10px;
 }
 
+.card button:hover{
+  background-color: rgb(209, 3, 3);
+}
+
 @media screen and (max-width: 768px){
 
 

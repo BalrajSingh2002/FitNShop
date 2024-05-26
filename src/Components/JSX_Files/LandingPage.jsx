@@ -24,13 +24,13 @@ import { Link } from "react-router-dom";
 const LandingPage = () => {
   const { userData, setUserData } = useUser();
   const Reviews = [
-    { id: 1, name: "Gunjan Sharma", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review1 },
-    { id: 2, name: "Avinash", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review2 },
-    { id: 3, name: "Harniman Singh", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review3 },
-    { id: 4, name: "Balraj Singh", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review4 },
-    { id: 5, name: "Ayush Kr Singh", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review5 },
+    { id: 1, name: "Balraj Singh", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review4 },
+    { id: 2, name: "Ayush Kr Singh", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review5 },
+    { id: 3, name: "Harshit Agarwal", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review7 },
+    { id: 4, name: "Shushant Monga", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review1 },
+    { id: 5, name: "Dimple Kaundal", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review2 },
     { id: 6, name: "Bisman Singh", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review6 },
-    { id: 7, name: "Harshit Agarwal", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review7 },
+    { id: 7, name: "Harniman Singh", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review7 },
     { id: 8, name: "Divyanshu Mehra", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review8 },
     { id: 9, name: "Karan", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review9 },
     { id: 10, name: "Priyanshu Choudhary", review: "Comprehensive fitness website with diverse workouts, diet plans, and a convenient shop for all your health needs. Highly recommended!", imageUrl: review10 },

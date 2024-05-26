@@ -23,17 +23,20 @@ const UserProfile = ({ globalUser }) => {
             {userData.firstName} {userData.lastName}
           </h2>
           <p>{userData.email}</p>
+          <Link to="/signin">
+          <button style={{ marginTop: "10px", background:"red", paddingTop:"5px",paddingBottom:"5px" }}
+            onClick={() => {
+              setUserData(null);
+            }}
+          >
+            LOGOUT
+          </button>
+        </Link>
+
         </div>
+        
       </div>
-      <Link to="/signin">
-        <button
-          onClick={() => {
-            setUserData(null);
-          }}
-        >
-          LOGOUT
-        </button>
-      </Link>
+
     </>
   );
 };

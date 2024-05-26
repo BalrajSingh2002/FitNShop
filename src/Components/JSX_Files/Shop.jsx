@@ -369,7 +369,7 @@ const Shop = ({ value, setValue }) => {
                 <p>
                   <del>MRP. {item.MRP}/-</del>
                 </p>
-                <p><b>Rs.{item.Price}</b></p>
+                <p><b>Rs.{item.Price}/-</b></p>
                 <button onClick={() => handleAddToCart(item)}>Add To Cart</button>
               </div>
             ))}

@@ -21,7 +21,7 @@ const Cart = ({ value, setValue }) => {
         <div className="cartitemprice">
           <span>{item.Price}</span>
         </div>
-        <div
+        <div className="deletebin"
           onClick={() => {
             setValue(value.filter((i) => i.id !== item.id));
           }}

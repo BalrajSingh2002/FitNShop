@@ -1,0 +1,19 @@
+.success{
+    margin: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #1f1f1f;
+    box-shadow: 0 0 10px black;
+}
+.paymentsuccessful h1{
+    font-size: 2rem;
+    color: #ffcc00;
+}
+.thankyou h3{
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+.thankyou p{
+    font-size: 1rem;
+    color: white;
+}

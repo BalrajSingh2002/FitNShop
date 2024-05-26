@@ -3,6 +3,7 @@ import "../CSS_Files/SignUp.css";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
+
   const [user, setUser] = useState({
     profilePicture: null,
     firstName: "",

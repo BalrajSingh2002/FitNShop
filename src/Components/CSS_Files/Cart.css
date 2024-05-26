@@ -49,7 +49,9 @@
 .cartitemprice{
     width: 20%;
 }
-
+.deletebin{
+    cursor: pointer;
+}
 .cart h1{
     margin: 2rem;
     border-radius: 20px;

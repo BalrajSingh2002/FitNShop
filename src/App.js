@@ -15,6 +15,8 @@ import PlaceOrder from "./Components/JSX_Files/PlaceOrder.jsx";
 import UserProfile from "./Components/JSX_Files/UserProfile.jsx";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Success from "./Components/JSX_Files/Success.jsx";
+import Cancel from "./Components/JSX_Files/Cancel.jsx";
 
 function App() {
   const [value, setValue] = useState([]);
@@ -40,6 +42,8 @@ function App() {
             path="Cart"
             element={<Cart value={value} setValue={setValue} />}
           />
+           <Route path="/sucess" element={<Success />} />
+      <Route path="/cancel" element={<Cancel />} />
           <Route path="PlaceOrder" element={<PlaceOrder />} />
           <Route path="SignUp" element={<SignUp />} />
           <Route path="SignIn" element={<SignIn />} />

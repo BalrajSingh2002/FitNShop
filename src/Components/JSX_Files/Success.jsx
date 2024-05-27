@@ -4,7 +4,7 @@ import "../CSS_Files/Success.css"
 const Success = () => {
   return (
     <>
-      <div className="successful">
+      <div className="success">
         <div className="paymentsuccessful">
           <h1>Payment Successfull</h1>
         </div>

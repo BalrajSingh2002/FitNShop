@@ -42,8 +42,8 @@ function App() {
             path="Cart"
             element={<Cart value={value} setValue={setValue} />}
           />
-           <Route path="/sucess" element={<Success />} />
-      <Route path="/cancel" element={<Cancel />} />
+          <Route path="/sucess" element={<Success />} />
+          <Route path="/cancel" element={<Cancel />} />
           <Route path="PlaceOrder" element={<PlaceOrder />} />
           <Route path="SignUp" element={<SignUp />} />
           <Route path="SignIn" element={<SignIn />} />
@@ -58,6 +58,7 @@ function App() {
             path="Workout/Diets"
             element={<Diets diets={diets} setDiets={setDiets} />}
           />
+          <Route path="/success" element={<Success />} />
         </Routes>
         <Footer />
       </BrowserRouter>

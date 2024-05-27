@@ -59,6 +59,7 @@ function App() {
             element={<Diets diets={diets} setDiets={setDiets} />}
           />
           <Route path="/success" element={<Success />} />
+          <Route path="cancel" element={<Cancel />} />
         </Routes>
         <Footer />
       </BrowserRouter>

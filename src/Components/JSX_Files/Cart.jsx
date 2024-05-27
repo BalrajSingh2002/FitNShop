@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS_Files/Cart.css";
 import { Link } from "react-router-dom";
-import { loadStripe } from '@stripe/stripe-js';
+import { loadStripe } from "@stripe/stripe-js";
 
 const Cart = ({ value, setValue }) => {
   const handleScrollToTop = () => {
@@ -21,7 +21,8 @@ const Cart = ({ value, setValue }) => {
         <div className="cartitemprice">
           <span>{item.Price}</span>
         </div>
-        <div className="deletebin"
+        <div
+          className="deletebin"
           onClick={() => {
             setValue(value.filter((i) => i.id !== item.id));
           }}
@@ -85,6 +86,7 @@ const Cart = ({ value, setValue }) => {
 
       if (error) {
         throw new Error(error.message);
+        window.location.href = "/cancel";
       } else {
         // Redirect the user after successful checkout
         window.location.href = "/success"; // Replace "/success" with your desired success page URL
